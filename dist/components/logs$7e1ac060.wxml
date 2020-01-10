@@ -1,0 +1,11 @@
+<import src="card$4aad4a76" />
+<template name="logs$7e1ac060">
+  <view class="_div data-v-03c86270 counter-warp">
+    <view bindtap="handleProxy" class="_a data-v-03c86270 home" data-eventid="{{'0'}}" data-comkey="{{$k}}">去往首页</view>
+    <view class="_ul data-v-03c86270 container log-list">
+      <view wx:key="index" key="{{index}}" class="_li data-v-03c86270 log-item" wx:for="{{logs}}" wx:for-index="index" wx:for-item="log">
+        <template data="{{...$root[$kk+'0-'+index], $root}}" is="card$4aad4a76"></template>
+      </view>
+    </view>
+  </view>
+</template>
